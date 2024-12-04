@@ -100,7 +100,11 @@ const LocationSelector = () => {
       {/* Display Selected Location */}
       {selectedCity && (
         <p>
-           <strong>You Selected {selectedCity}</strong>, {selectedState}, {selectedCountry}
+          <strong>
+            You Selected{" "}
+            <span style={{ fontSize: "1.5em" }}>{selectedCity}</span>
+          </strong>
+          , {selectedState}, {selectedCountry}
         </p>
       )}
     </div>
